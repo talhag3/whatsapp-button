@@ -29,6 +29,7 @@ function talhag3WAButton(showWpBtn=false,phone='923134711699',text='Hi , Talha')
     target.style.boxShadow = '2px 2px 3px #999';
     target.style.zIndex = '100';
     target.style.cursor = 'pointer';
+    target.style.boxSizing = 'content-box';
     
     target.addEventListener('mouseenter', () => {target.style.backgroundColor = 'rgb(60 224 121)';});
     target.addEventListener('mouseleave', () => {target.style.backgroundColor = '#25d366';});
