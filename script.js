@@ -33,8 +33,8 @@ function talhag3WAButton(showWpBtn=false,phone='923134711699',text='Hi , Talha')
     target.addEventListener('mouseenter', () => {target.style.backgroundColor = 'rgb(60 224 121)';});
     target.addEventListener('mouseleave', () => {target.style.backgroundColor = '#25d366';});
     target.addEventListener('click', opneWhatsapp);
-    target.innerHTML = wa_svg;
-
+    
     document.body.appendChild(target);
-
+    
+    target.innerHTML = wa_svg;
 }
