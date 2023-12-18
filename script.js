@@ -19,7 +19,7 @@ function talhag3WAButton(showWpBtn=false,phone='923134711699',text='Hi , Talha')
     target.style.padding = '15px';
     target.style.width = '30px';
     target.style.height = '30px';
-    target.style.bottom = '40px';
+    target.style.bottom = '80px';
     target.style.right = '40px';
     target.style.backgroundColor = '#25d366';
     target.style.color = '#FFF';
